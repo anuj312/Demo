@@ -1,0 +1,8 @@
+23:46:09.511 [main] INFO  MavenFrame.baseclass - website is running
+23:46:10.171 [main] INFO  MavenFrame.baseclass - Assertion  match is true
+23:51:12.096 [main] INFO  MavenFrame.baseclass - Browser is Invoking
+23:51:16.010 [main] INFO  MavenFrame.baseclass - website is running
+23:51:16.136 [main] INFO  MavenFrame.baseclass - Assertion  match is true
+23:51:49.280 [main] INFO  MavenFrame.baseclass - user name entered
+23:51:50.120 [main] INFO  MavenFrame.baseclass - password is entered
+23:51:50.120 [main] DEBUG MavenFrame.baseclass - CLICKED SUCCESFULLY
