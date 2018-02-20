@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <groups>
+ <run>
+  <exclude name="smoke"/>
+     </run>
+  </groups>  
+  
+    <classes>
+      <class name="MavenFirst.Maven.AppTest"/>
+      
+      <class name="MavenFirst.Maven.First">
+      <methods>
+         <include name="Test"/>
+     </methods>
+     </class>
+     
+  <class name="MavenFirst.Maven.Second"/>
+ </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
